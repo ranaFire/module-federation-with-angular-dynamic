@@ -14,3 +14,7 @@ Demonstrates webpack 5 Module Federation with Angular and the Angular Router.
 - Run the shell
   - ng serve shell -o
 
+## For docker development needs to change
+
+- Change in the package.json file:- ng serve --host 0.0.0.0
+- macOS change the port 5000 to 4200 in the angular.json
